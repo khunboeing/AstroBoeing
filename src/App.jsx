@@ -112,6 +112,7 @@ function App() {
         <a
           className="text-[#D98FDF]"
           href="https://www.linkedin.com/in/napatpimon-ponpathanapaisarn-162420243/"
+          target="_blank"
         >
           {" "}
           ( My Linkedin )
@@ -119,6 +120,7 @@ function App() {
         <a
           className="text-[#D98FDF]"
           href="https://boeingportfirst.vercel.app/"
+          target="_blank"
         >
           ( My portfolio )
         </a>
