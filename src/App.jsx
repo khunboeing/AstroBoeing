@@ -107,6 +107,22 @@ function App() {
           zodiac={zodiac}
         />
       )}
+      <footer className="text-white flex gap-3 justify-center mb-[30px]">
+        <span>Create by Boeing </span>
+        <a
+          className="text-[#D98FDF]"
+          href="https://www.linkedin.com/in/napatpimon-ponpathanapaisarn-162420243/"
+        >
+          {" "}
+          ( My Linkedin )
+        </a>{" "}
+        <a
+          className="text-[#D98FDF]"
+          href="https://boeingportfirst.vercel.app/"
+        >
+          ( My portfolio )
+        </a>
+      </footer>
     </div>
   );
 }
