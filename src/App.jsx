@@ -89,7 +89,7 @@ function App() {
     setZodiac("");
   }
   return (
-    <div className="bg-black overflow-auto w-[100vw] h-[100vh]">
+    <div className="bg-black overflow-auto w-[100vw] h-[100vh] relative">
       {showStartPage ? (
         isLoading ? (
           <h1 className="text-white flex justify-center items-center h-[100%]">
@@ -107,7 +107,7 @@ function App() {
           zodiac={zodiac}
         />
       )}
-      <footer className="text-white flex gap-3 justify-center mb-[30px]">
+      <footer className="text-white flex gap-3 justify-center mb-[30px] relative bottom-0">
         <span>Create by Boeing </span>
         <a
           className="text-[#D98FDF]"

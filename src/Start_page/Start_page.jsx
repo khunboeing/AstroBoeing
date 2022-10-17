@@ -67,7 +67,7 @@ function Start_page(props) {
   }, [index]);
   // console.log("date:", date);
   return (
-    <div className="h-[100vh]">
+    <div className="h-[92%]">
       <div className="flex justify-center flex-col items-center ">
         <h1 className="text-[#D98FDF] mt-[60px] text-4xl font-bold">
           Your Birthday
